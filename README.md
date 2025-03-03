@@ -26,7 +26,7 @@ Ce atelier regroupe une série d'exercices pratiques pour se familiariser avec l
 ### Exercice 4 : Mini-Blog en JavaScript 📝
 ## Objectif
 
-L'objectif de cet exercice est de créer un mini-blog utilisant la programmation orientée objet (POO) en JavaScript. Le projet permet aux utilisateurs de s'inscrire, se connecter, ajouter des publications, et afficher les publications. Les données sont stockées dans le `localStorage`. De plus, une fonctionnalité a été ajoutée pour permettre aux utilisateurs d'ajouter des images à leurs publications.
+L'objectif de cet exercice est de créer un mini-blog utilisant la programmation orientée objet (POO) en JavaScript. Le projet permet aux utilisateurs de s'inscrire, se connecter, ajouter des publications, et afficher les publications. Les données sont stockées dans le `localStorage`.
 
 ## Fonctionnalités
 
@@ -50,6 +50,30 @@ L'objectif de cet exercice est de créer un mini-blog utilisant la programmation
 - **`blogs.js`** : Contient la logique pour l'ajout, l'affichage, la suppression et la gestion des publications (y compris les images).
 - **`signing.js`** : Gestion de l'inscription des nouveaux utilisateurs.
 - **`login.js`** : Gestion de la connexion des utilisateurs.
+
+
+
+#### Capture d'écran : 
+
+1. **Page de Login :**  
+   Voici la page de connexion où les utilisateurs peuvent se connecter avec leur email et mot de passe.  
+   ![Page de Login](images/login.png)
+
+2. **Page d'Inscription :**  
+   Cette page permet aux utilisateurs de s'inscrire en remplissant leur nom, email et mot de passe.  
+   ![Page de Signing](images/sign.png)
+
+3. **Page Principale pour Ajouter un Post :**  
+   Sur cette page, l'utilisateur peut ajouter une nouvelle publication avec un titre, une description, et une image.  
+   ![Page Principale](images/principal.png)
+
+4. **Page pour Voir les Posts :**  
+   Cette page affiche toutes les publications de l'utilisateur connecté.  
+   ![Page de Voir les Posts](images/blogs.png)
+
+
+
+
 ## 🚀 Installation et Utilisation
 
 Pour cloner et exécuter le projet localement :
