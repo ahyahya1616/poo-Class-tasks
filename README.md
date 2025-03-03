@@ -57,4 +57,4 @@ Pour cloner et exécuter le projet localement :
 
 1. Cloner le projet avec la commande suivante :
    ```bash
-   git clone <URL_DU_REPO>
+   git clone https://github.com/ahyahya1616/poo-Class-tasks.git
