@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blogs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="w-full bg-white flex justify-between px-4 py-4 shadow-md">
+        <h1 class="text-xl font-bold ">{ CODE <span class="text-purple-600">WALL</span> }</h1>
+        <div class="space-x-4 px-12">
+            <button class="text-gray-700 font-semibold"><a href="Blogs.html">My Blogs</a></button>   
+            <button onclick="logout()" class="text-gray-700 font-semibold">Logout</button>   
+        </div>
+    </div>
+
+    <div class="max-w-4xl mx-auto mt-10">
+        <h2 class="text-2xl font-semibold text-center mb-6">Your Blog Posts</h2>
+        <div id="blogContainer" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let userId = sessionStorage.getItem("id");
+            if (!userId) {
+                Swal.fire("Error","You are not logged in!","error");
+                window.location.href = "login.html";
+                return;
+            }
+
+            let posts = JSON.parse(localStorage.getItem("posts")) || [];
+            let userPosts = posts.filter(post => post.userId === userId);
+
+            let blogContainer = document.getElementById("blogContainer");
+            
+            if (userPosts.length === 0) {
+                blogContainer.innerHTML = "<p class='text-center text-gray-500'>No blogs found. Create one!</p>";
+            } else {
+                userPosts.forEach(post => {
+                    let postElement = document.createElement("div");
+                    postElement.className = "bg-white p-6 rounded-lg shadow-md";
+                    postElement.innerHTML = `
+                        <h3 class="text-xl font-bold text-purple-600">${post.title}</h3>
+                        <p class="text-gray-700 mt-2">${post.description}</p>
+                        <button class="mt-4 text-red-500" onclick="deletePost(${post.id})">Delete</button>
+                    `;
+                    blogContainer.appendChild(postElement);
+                });
+            }
+        });
+
+        function deletePost(postId) {
+            let posts = JSON.parse(localStorage.getItem("posts")) || [];
+            let updatedPosts = posts.filter(post => post.id != postId);
+            localStorage.setItem("posts", JSON.stringify(updatedPosts));
+            location.reload();
+        }
+
+        function logout() {
+            sessionStorage.removeItem("id");
+            window.location.href = "login.html";
+        }
+    </script>
+
+</body>
+</html>

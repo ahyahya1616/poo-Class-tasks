@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="w-full bg-white flex justify-between px-4 py-4 shadow-md">
+        <h1 class="text-xl font-bold ">{ CODE <span class="text-purple-600">WALL</span> }</h1>
+        <div class="space-x-4 px-12">
+            <button class="text-gray-700 font-semibold"><a href="blogs.html">My Blogs</a></button>   
+            <button onclick="logout()" class="text-gray-700 font-semibold">Logout</button>   
+        </div>
+    </div>
+    
+
+
+    <div class="container mt-4 flex justify-between ">
+        <h1 class=" py-2 font-semibold text-xl ml-16 ">Your Blog Posts</h1>
+        <button id="addPostButton" class="bg-blue-700 rounded-lg px-6 py-2 text-white">Add New Post </button>
+    </div>
+    <div class="px-14">
+      <div id="postForm" class="hidden bg-white p-6 rounded-md shadow-md mt-2 relative">
+        <div class="flex justify-between items-center border-b pb-3 mb-4">
+            <h3 class="text-lg font-semibold">Your Post</h3>
+            <span id="closeForm" class="text-xl cursor-pointer">&times;</span>
+        </div>
+        <input type="text" id="title" placeholder="Title" class="w-full p-2 border rounded mb-3">
+        <textarea placeholder="Description" id="description" class="w-full p-2 border rounded mb-3 h-24"></textarea>
+        <div class="flex justify-end">
+        <button id="postButton" class="bg-purple-600 text-white px-4 py-2 rounded-md  hover:bg-purple-700">POST</button>
+    </div>
+    </div>
+</div>
+
+<script src="blogs.js"></script>
+<script>
+
+   </script>
+
+</body>
+
+</html>
