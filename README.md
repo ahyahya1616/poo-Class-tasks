@@ -39,8 +39,7 @@ L'objectif de cet exercice est de créer un mini-blog utilisant la programmation
    - **Afficher les publications :** Les publications créées par chaque utilisateur sont affichées sur la page `index.html`.
    - **Supprimer une publication :** Les utilisateurs peuvent supprimer leurs publications depuis la page principale.
 
-3. **Ajout d'Images aux Publications :**
-   - Les utilisateurs peuvent télécharger une image pour chaque publication. L'image est ensuite affichée avec le titre et la description de la publication.
+
 
 ## Fichiers:
 
