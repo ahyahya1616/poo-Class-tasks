@@ -52,23 +52,22 @@ L'objectif de cet exercice est de créer un mini-blog utilisant la programmation
 - **`login.js`** : Gestion de la connexion des utilisateurs.
 
 
-
-#### Capture d'écran : 
+####  Captures d'écran : 📸
 
 1. **Page de Login :**  
-   Voici la page de connexion où les utilisateurs peuvent se connecter avec leur email et mot de passe.  
-   ![Page de Login](images/login.png)
+   Cette page permet aux utilisateurs de se connecter en utilisant leur adresse email et leur mot de passe.  
+   ![Page de Login](images/loging.png)
 
 2. **Page d'Inscription :**  
-   Cette page permet aux utilisateurs de s'inscrire en remplissant leur nom, email et mot de passe.  
-   ![Page de Signing](images/sign.png)
+   Les utilisateurs peuvent s'inscrire en remplissant un formulaire avec leur nom, email et mot de passe.  
+   ![Page d'Inscription](images/sign.png)
 
 3. **Page Principale pour Ajouter un Post :**  
-   Sur cette page, l'utilisateur peut ajouter une nouvelle publication avec un titre, une description, et une image.  
-   ![Page Principale](images/principal.png)
+   Sur cette page, l'utilisateur peut ajouter une nouvelle publication en renseignant un titre, une description, et une image (facultative).  
+   ![Page Principale pour Ajouter un Post](images/principal.png)
 
 4. **Page pour Voir les Posts :**  
-   Cette page affiche toutes les publications de l'utilisateur connecté.  
+   Cette page affiche toutes les publications créées par l'utilisateur connecté, offrant une vue d'ensemble des contenus partagés.  
    ![Page de Voir les Posts](images/blogs.png)
 
 
