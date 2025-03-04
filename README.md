@@ -1,6 +1,6 @@
 # atelier POO en JavaScript
 
-Ce atelier regroupe une série d'exercices pratiques pour se familiariser avec la Programmation Orientée Objet (POO) en JavaScript, en mettant en œuvre des concepts tels que l'héritage, la composition et la gestion des objets.
+Ce atelier regroupe une série d'exercices pratiques pour se familiariser avec la Programmation Orientée Objet (POO) en JavaScript, en mettant en œuvre des concepts tels que l'héritage et la gestion des objets.
 
 ## 📌 Contenu du projet
 
