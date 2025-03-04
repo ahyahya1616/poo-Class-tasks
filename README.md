@@ -26,7 +26,7 @@ Ce atelier regroupe une série d'exercices pratiques pour se familiariser avec l
 ### Exercice 4 : Mini-Blog en JavaScript 📝
 ## Objectif
 
-L'objectif de cet exercice est de créer un mini-blog utilisant la programmation orientée objet (POO) en JavaScript. Le projet permet aux utilisateurs de s'inscrire, se connecter, ajouter des publications, et afficher les publications. Les données sont stockées dans le `localStorage`.
+L'objectif de cet exercice est de créer un mini-blog utilisant la programmation orientée objet (POO) en JavaScript. Il permet aux utilisateurs de s'inscrire, se connecter, ajouter des publications, et afficher les publications. Les données sont stockées dans le `localStorage`.
 
 ## Fonctionnalités
 
@@ -35,19 +35,17 @@ L'objectif de cet exercice est de créer un mini-blog utilisant la programmation
    - **Connexion :** Les utilisateurs peuvent se connecter avec leur email et mot de passe sur la page `login.html`.
 
 2. **Création et Gestion des Publications :**
-   - **Ajouter une publication :** Les utilisateurs connectés peuvent ajouter de nouvelles publications avec un titre, une description, et une image (facultative).
-   - **Afficher les publications :** Les publications créées par chaque utilisateur sont affichées sur la page `index.html`.
-   - **Supprimer une publication :** Les utilisateurs peuvent supprimer leurs publications depuis la page principale.
-
-
+   - **Ajouter une publication :** Les utilisateurs connectés peuvent ajouter de nouvelles publications avec un titre, une description.
+   - **Afficher les publications :** Les publications créées par chaque utilisateur sont affichées sur la page `blogs.html`.
+   - **Supprimer une publication :** Les utilisateurs peuvent supprimer leurs publications.
 
 ## Fichiers:
 
 - **`login.html`** : Page de connexion où les utilisateurs peuvent se connecter avec leur email et mot de passe.
 - **`signing.html`** : Page d'inscription où les utilisateurs peuvent créer un compte.
-- **`index.html`** : Page principale qui affiche les publications de l'utilisateur connecté et permet l'ajout de nouvelles publications.
+- **`index.html`** : Page principale qui permet l'ajout de nouvelles publications.
 - **`blogs.html`** : Affichage des publications créées par l'utilisateur connecté.
-- **`blogs.js`** : Contient la logique pour l'ajout, l'affichage, la suppression et la gestion des publications (y compris les images).
+- **`blogs.js`** : Contient la logique pour l'ajout, l'affichage et la suppression des publications.
 - **`signing.js`** : Gestion de l'inscription des nouveaux utilisateurs.
 - **`login.js`** : Gestion de la connexion des utilisateurs.
 
@@ -63,11 +61,12 @@ L'objectif de cet exercice est de créer un mini-blog utilisant la programmation
    ![Page d'Inscription](images/sign.png)
 
 3. **Page Principale pour Ajouter un Post :**  
-   Sur cette page, l'utilisateur peut ajouter une nouvelle publication en renseignant un titre, une description, et une image (facultative).  
-   ![Page Principale pour Ajouter un Post](images/principal.png)
+   Sur cette page, l'utilisateur peut ajouter une nouvelle publication en renseignant un titre, une description .
+   ![Page Principale pour Ajouter un Post - Vue 2](images/principal.png)
+   ![Page Principale pour Ajouter un Post - Vue 1](images/post.png) 
 
 4. **Page pour Voir les Posts :**  
-   Cette page affiche toutes les publications créées par l'utilisateur connecté, offrant une vue d'ensemble des contenus partagés.  
+   Cette page affiche toutes les publications créées par l'utilisateur connecté.
    ![Page de Voir les Posts](images/blogs.png)
 
 
