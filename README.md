@@ -2,7 +2,7 @@
 
 Ce atelier regroupe une série d'exercices pratiques pour se familiariser avec la Programmation Orientée Objet (POO) en JavaScript, en mettant en œuvre des concepts tels que l'héritage et la gestion des objets.
 
-## 📌 Contenu du projet
+## 📌 Contenu d'atelier
 
 ### Exercice 1 : Gestion des Voitures 🚗
 - Création d'une fonction constructeur `Voiture` avec les attributs : modèle, marque, année, type, carburant.
